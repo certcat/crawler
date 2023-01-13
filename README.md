@@ -1,8 +1,7 @@
-# windlass
-windlass hoists trust anchors
+# crawler
 
-This program fetches several major trust stores.
+The certcat crawler pulls data from sources like Certificate Transparency, CRLs, OCSP and root programs.
 
-It runs using Github Actions, creating a pull request with updated data.
+The data is stored in a machine-readable format suitable for use by downstream systems who want to understand the Web PKI.
 
-An HTML/JS file will be included for interactive browsing.
+This project is still an experiment and is not yet intended for public use or collaboration.
